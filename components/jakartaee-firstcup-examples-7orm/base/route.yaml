@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jakartaee-firstcup-examples-7orm
     app.kubernetes.io/part-of: jakartaee-firstcup-examples
-  name: jakartaee-firstcup-exampla8vi
+  name: jakartaee-firstcup-examplu0yf
   namespace: rhn-engineering-sstark-tenant
 spec:
   port:
