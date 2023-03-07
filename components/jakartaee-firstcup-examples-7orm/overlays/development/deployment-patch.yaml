@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jakartaee-firstcup-examples-7orm
+  namespace: rhn-engineering-sstark-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:c2940a1ef24f4fb71f9ffa4a730c905a5379ba803030a280fb8d053ca0628d09
+        name: container-image
+        resources: {}
+status: {}
