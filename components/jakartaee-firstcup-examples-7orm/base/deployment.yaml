@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jakartaee-firstcup-examples-7orm
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload@sha256:d2500fc2721fad3173825ec9012fcbef7b980e13a97d8b65bbd6b8e9662175f2
+      - image: quay.io/redhat-appstudio/user-workload@sha256:fdd5c35a9779ecbd441833f64a88d6cdea1f2f73e0999bac6214cce83753a655
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
